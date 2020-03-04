@@ -7,10 +7,10 @@
     "host": "localhost",
     "port": 27017,
     "url": "",
-    "database": "xeen-server",
-    "password": "123456",
+    "database": "xeen",
+    "password": "zee@2020",
     "name": "mongoDs",
-    "user": "demo",
+    "user": "zeeuser",
     "useNewUrlParser": true,
     "connector": "mongodb"
   }
