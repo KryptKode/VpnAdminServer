@@ -1,0 +1,17 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongoDs": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "xeen-server",
+    "password": "123456",
+    "name": "mongoDs",
+    "user": "demo",
+    "useNewUrlParser": true,
+    "connector": "mongodb"
+  }
+}

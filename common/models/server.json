@@ -1,0 +1,65 @@
+{
+  "name": "Server",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "username": {
+      "type": "string",
+      "required": true
+    },
+    "password": {
+      "type": "string",
+      "required": true
+    },
+    "serverName": {
+      "type": "string",
+      "required": true
+    },
+    "serverCountry": {
+      "type": "string",
+      "required": true
+    },
+    "serverIp": {
+      "type": "string",
+      "required": true
+    },
+    "config": {
+      "type": "string",
+      "required": true
+    },
+    "dateCreated": {
+      "type": "date",
+      "required": false
+    },
+    "dateUpdated": {
+      "type": "date",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "DENY"
+    },
+    {
+      "accessType": "READ",
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "ALLOW"
+    },
+    {
+      "accessType": "WRITE",
+      "principalType": "ROLE",
+      "principalId": "admin",
+      "permission": "ALLOW"
+    }
+  ],
+  "methods": {}
+}
