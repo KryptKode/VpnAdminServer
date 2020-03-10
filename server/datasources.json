@@ -8,7 +8,7 @@
     "port": 27017,
     "url": "",
     "database": "xeen",
-    "password": "zee@2020",
+    "password": "zee2020",
     "name": "mongoDs",
     "user": "zeeuser",
     "useNewUrlParser": true,
